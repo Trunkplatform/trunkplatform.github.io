@@ -13,7 +13,7 @@ h1 {
 	margin-right: 15px;
 	font-size: 50px;
 	line-height: 60px;
-		font-weight: 1000;		
+	font-weight: 900;
 
 }
 
@@ -32,6 +32,9 @@ h3 {
 	line-height: 28px;
 	font-weight: 800;
 
+}
+h3 a:hover {
+	text-decoration: none;
 }
 
 ul {
@@ -70,9 +73,9 @@ button:hover {
 
 footer a:active,
 footer a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
-4
+
 .business button:active,
 .business button:hover {
 	color: black;
@@ -123,19 +126,14 @@ footer a:hover {
 	margin-left: 30px;
 }
 
-
-
-
-
-<!--Colors-->
-
+/*colors*/
 
 .col5{
-	color:#2200FF;	
+	color:#17C3F5;
 }
 
 .c2 {
-	color: blue !important;
+	color: #17C3F5 !important;
 }
 
 
@@ -152,12 +150,12 @@ footer a:hover {
 }
 
 .bc1 {
-		background-color:#000ff !important;	
+		background-color: #17C3F5 !important;
 }
 
 
 .bc2 {
-	background-color: blue!important;	
+	background-color: #17C3F5 !important;
 	
 }
 
@@ -172,98 +170,6 @@ footer a:hover {
 .bc5 {
 	background-color:#ffffff !important;
 }
-
-
-
-.team-members {
-	margin-bottom: 60px;
-}
-
-.team-members li {
-	-webkit-perspective: 1000;
-	perspective: 1000;
-}
-
-.team-member {
-	margin: 5px;
-	width: 150px;
-	height: 150px;
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
-	border-radius: 100px;
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
-	border-radius: 100px;
-	background-color: #EEE;
-	position: relative;
-}
-
-.team-member img {
-	width: 150px;
-	height: 150px;
-	border-radius: 100px;
-}
-
-.team-member span {
-	position: relative;
-	top: 36%;
-}
-
-.flip-container:hover .flip-card {
-	-webkit-transform: rotateY(180deg);
-	-ms-transform: rotateY(180deg);
-	transform: rotateY(180deg);
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	-ms-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-
-.flip-container {
-	-webkit-perspective: 1000px;
-	perspective: 1000px;
-}
-
-.flip-card {
-	-webkit-transform-style: preserve-3d;
-	-moz-transform-style: preserve-3d;
-	-o-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-  	-webkit-transition: all 0.4s linear;
-  	-moz-transition: all 0.4s linear;
-  	-o-transition: all 0.4s linear;
-  	transition: all 0.4s linear;
-  	cursor: pointer;
-        backface-visibility: hidden;
-}
-
-.face {
-    width: 150px;
-    height: 150px;
-    -webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
-    border-radius: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.face.back {
-	-webkit-transform: rotateY(180deg);
-	-ms-transform: rotateY(180deg);
-	transform: rotateY(180deg);
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	color: white;
-	text-align: center;
-	background-color: #fdba25;
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	-ms-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-
 
 .mid {
 	width: 100%;
@@ -313,7 +219,7 @@ footer a:hover {
 .business {
 	padding-top: 130px;
 	color: white;
-	background-color: blue;
+	background-color: #17C3F5;
 	background-attachment: fixed;
 }
 
@@ -332,29 +238,6 @@ footer a:hover {
 
 .work-with-us .content {
 	margin: 0 9em; 
-}
-
-.contact {
-	color: white;
-	background-color: #e1562b;
-	background-image: url("img/ldp.png");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: 50% 50%;
-}
-
-.contact .content {
-	text-shadow: 0 1px 2px #333;
-}
-
-.contact a {
-	color: #333;
-	text-shadow: none;
-}
-
-.contact a:active,
-.contact a:hover {
-	color: black;
 }
 
 .social {
@@ -537,7 +420,7 @@ footer a:hover {
 	}
 }
 
-<!-- NEW -->
+/*new*/
 
 .rotate {
     position: absolute;
@@ -572,9 +455,7 @@ footer a:hover {
 
 .embed-container { position: absolute; height:100%; overflow: hidden; width: 100%; z-index:-3;}
 
-
-
-<!---- Video --->
+/*video*/
 
 .header-unit {
   height: 150px;
@@ -610,7 +491,7 @@ video.fillWidth {
 text-shadow: 1px 3px 14px rgba(150, 150, 150, 2);	
 }
 
-<!---- Maps --->
+/*maps*/
 
 
 
